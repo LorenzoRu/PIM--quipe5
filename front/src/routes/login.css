@@ -1,0 +1,74 @@
+section {
+    padding: 0;
+}
+
+
+h3{
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F8F8F8;
+    height: 250px;
+    border-bottom: 1.5px solid #A0A0A0;
+}
+
+.logoAlt {
+    width: 205px;
+    height: 205px;
+}
+
+.formGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px;
+}
+
+.forms {
+    height: auto;
+    align-items: center;
+}
+
+.forgot {
+    font-size: 1rem;
+}
+
+.loginForms{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+.signIn {
+    width: 300px;
+    background-color: #00AC9F;
+    border: none;
+    color: #FFFF;
+    font-size: 1.5rem;
+}
+.signUp {
+    width: 300px;
+    background-color: none;
+    border: none;
+    background-color: #FFFF;
+    color: #00AC9F;
+    font-size: 1.5rem;
+}

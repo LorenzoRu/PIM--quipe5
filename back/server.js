@@ -8,9 +8,27 @@ var corsOptions = {
 app.use(cors(corsOptions));
 // parse requests of content-type - application/json
 const db = require("./app/models");
-db.sequelize.sync({ force: true }).then(() => {
-  console.log("Drop and re-sync db.");
+const Role = db.role;
+db.sequelize.sync({force: true}).then(() => {
+  console.log('Drop and Resync Db');
+  initial();
 });
+function initial() {
+  Role.create({
+    id: 1,
+    name: "user"
+  });
+ 
+  Role.create({
+    id: 2,
+    name: "moderator"
+  });
+ 
+  Role.create({
+    id: 3,
+    name: "admin"
+  });
+}
 
 app.use(express.json());
 // parse requests of content-type - application/x-www-form-urlencoded
@@ -22,6 +40,7 @@ app.get("/", (req, res) => {
 // routes
 require("./app/routes/turorial.routes")(app);
 require('./app/routes/auth.routes')(app);
+require('./app/routes/user.routes')(app);
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
