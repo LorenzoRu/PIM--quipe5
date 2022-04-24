@@ -12,7 +12,7 @@ const data = [
     price: "150€",
     img: "/img/zelda.png",},
     {name: "Pikmin",
-    console: "GameCube",
+    console: "GC",
     date: "2002",
     price: "175€",
     img: "/img/pikmin.png",},

@@ -15,7 +15,7 @@
     right: 0;
     padding: 10px;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 .modalContain{
@@ -66,11 +66,36 @@
 .notif{
     height: 100px;
     width: 80%;
-    background-color: aqua;
+    background-color: #FFFFFF;
     margin-bottom: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
+
+.bell{
+    font-size: 4.5rem;
+    color: #DF0024;
+}
+.Notif {
+    font-size: 2.5rem;
+}
+
+.truck {
+    font-size: 4.5rem;
+    color: #00AC9F;
+}
+
+.Livr{
+    font-size: 2.5rem;
+}
+
 .livraison{
     height: 100px;
     width: 80%;
-    background-color: aqua;
+    background-color: #FFFFFF;
+    margin-bottom: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }

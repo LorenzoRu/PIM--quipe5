@@ -3,6 +3,7 @@
 html{
   font-size: 62.5%;
   margin: 0;
+  text-decoration: none;
 }
 
 body {
@@ -10,6 +11,7 @@ body {
   font-family: 'Jost', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
 }
 
 code {

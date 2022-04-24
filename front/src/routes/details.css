@@ -1,0 +1,66 @@
+.heroe {
+    width: 100vw;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    width: 65%;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 2.5rem;
+
+}
+.support {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.detail2 {
+    margin-top: 15px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.more {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.description {
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border-top: 1px solid #C5C5C5;
+    text-align: justify;
+}
+
+.boldgreen {
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: #00BFA6;
+}
+
+.bundleDetails {
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.find {
+    height: 48px;
+    background-color: #E8C371;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
