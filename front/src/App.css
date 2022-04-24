@@ -1,3 +1,11 @@
+p {
+    margin: 0;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
 section {
     padding-left: 15px;
 }
@@ -6,21 +14,51 @@ section {
     height: 170px;
     width: 100%;
     background-color: #E7E7E7;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+   justify-content: center;
+    align-items: center;
+}
+
+.catchPhrase{
+    font-size: 1.8rem;
+    width: 85%;
+}
+
+.services{
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.bold {
+    font-size: 2.1rem;
+    font-weight: bold;
 }
 
 .gameList {
     background-color: #F8F8F8;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
 }
 .filter {
     display: flex;
     align-items: center;
-    justify-content: space-around;
 }
 
 .selector {
+    margin-left: 30px;
     height: 39px;
     width: 158px;
     border: solid  1px #EA5863;
     border-radius: 5px;
+}
+
+.about {
+    display: flex;
+    color: #E7E7E7;
+    font-size: large;
 }
